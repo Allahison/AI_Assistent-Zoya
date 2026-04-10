@@ -1,12 +1,4 @@
 # 🚀 Zoya AI Assistant: The Ultimate Windows Companion
-
-<div align="center">
-  <img width="1200" alt="Zoya AI Banner" src="assets/zoya_ai_banner.png" />
-  <p><em>Autonomously mastering your Windows environment with the power of Gemini AI.</em></p>
-</div>
-
----
-
 ## 🌟 Overview
 
 **Zoya AI Assistant** is a professional-grade Windows automation and development companion. Built with a robust **Node.js System Bridge** and a modern **React/Vite frontend**, Zoya transcends simple voice commands to provide true autonomous control over your OS, applications, and development workflow.
