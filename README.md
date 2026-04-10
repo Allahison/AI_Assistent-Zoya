@@ -94,8 +94,4 @@ This application uses system-level automation (PowerShell, `exec`). Ensure you r
 <div align="center">
   <p>Built with ❤️ by the Zoya AI Team</p>
   <p><em>Production Ready Version 3.1</em></p>
-  <p>
-    <a href="https://github.com/YOUR_USERNAME/zoya-ai-assistant/issues">Report Bug</a> •
-    <a href="https://github.com/YOUR_USERNAME/zoya-ai-assistant/pulls">Request Feature</a>
-  </p>
 </div>
