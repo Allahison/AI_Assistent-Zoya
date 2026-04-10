@@ -4,6 +4,9 @@ import cors from 'cors';
 import https from 'https';
 import fs from 'fs';
 import path from 'path';
+import dotenv from 'dotenv';
+
+dotenv.config({ path: '.env.local' });
 
 const app = express();
 const port = 5000;
@@ -421,7 +424,6 @@ app.post('/open-app', (req, res) => {
   if (!appName) return res.status(400).json({ error: "App name is required" });
   
   const normalizedName = appName.toLowerCase();
-  console.log(`Attempting to open: ${normalizedName}`);
 
   let command = SMART_APP_LABELS[normalizedName] || `start ${appName}`;
   
@@ -628,5 +630,5 @@ $wshell.SendKeys("{ENTER}");
 });
 
 app.listen(port, () => {
-  console.log(`System Bridge Server listening at http://localhost:${port}`);
+  console.log(`\x1b[32m[Zoya Bridge]\x1b[0m System Bridge Server active at http://localhost:${port}`);
 });

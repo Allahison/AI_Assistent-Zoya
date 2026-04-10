@@ -1,7 +1,7 @@
 # 🚀 Zoya AI Assistant: The Ultimate Windows Companion
 
 <div align="center">
-  <img width="1200" alt="Zoya AI Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" alt="Zoya AI Banner" src="assets/zoya_ai_banner.png" />
   <p><em>Autonomously mastering your Windows environment with the power of Gemini AI.</em></p>
 </div>
 
@@ -37,7 +37,7 @@ Whether you're bootstrapping a Next.js project, automating WhatsApp messages, or
 
 - **Frontend**: React 19, Vite, Tailwind CSS, Framer Motion (Lucide Icons)
 - **Backend**: Node.js, Express.js (System Bridge Server)
-- **AI Engine**: Google Gemini API (@google/genai)
+- **AI Engine**: Google Gemini API (@google/genai) — Powered by Zoya Intelligence
 - **Automation**: PowerShell Scripting, COM Objects, WScript.Shell
 - **Styling**: Modern Glassmorphic UI with Sleek Animations
 
@@ -49,7 +49,7 @@ Whether you're bootstrapping a Next.js project, automating WhatsApp messages, or
 
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [Visual Studio Code](https://code.visualstudio.com/) (Recommended)
-- A **Gemini API Key** from [Google AI Studio](https://aistudio.google.com/)
+- A **Gemini API Key** from [Google AI Studio (Zoya's Core Engine)](https://aistudio.google.com/)
 
 ### Installation
 
@@ -101,6 +101,7 @@ This application uses system-level automation (PowerShell, `exec`). Ensure you r
 
 <div align="center">
   <p>Built with ❤️ by the Zoya AI Team</p>
+  <p><em>Production Ready Version 3.1</em></p>
   <p>
     <a href="https://github.com/YOUR_USERNAME/zoya-ai-assistant/issues">Report Bug</a> •
     <a href="https://github.com/YOUR_USERNAME/zoya-ai-assistant/pulls">Request Feature</a>
